@@ -1,0 +1,46 @@
+1)
+CREATE DATABASE mateus_gomes_2023_roteiro_pratico1;
+
+2)
+USE mateus_gomes_2023_roteiro_pratico1;
+    CREATE TABLE clientes(
+    id INTEGER PRIMARY KEY,
+    nome VARCHAR(50),
+    email VARCHAR(50),
+    idade INTEGER
+);
+
+3)
+INSERT INTO clientes(id, nome , email, idade)VALUES(1,"João","joaogomesoficial@gmail.com",20);
+INSERT INTO clientes(id, nome, email, idade) VALUES(2,"Rodrigo Faro","farooficial@gmail.com",19);
+INSERT INTO clientes(id, nome, email, idade) VALUES(3,"ODEIO BANCO DE DADOS","soso1@gmail.com",23);
+INSERT INTO clientes(id, nome, email, idade) VALUES(4,"Luisa","luisa1@gmail.com",23);
+INSERT INTO clientes(id, nome, email, idade) VALUES(5,"Susane","susane1@gmail.com",18);
+INSERT INTO clientes(id, nome, email, idade) VALUES(6,"João Degaspari","degasparijoao@gmail.com",20);
+INSERT INTO clientes(id, nome, email, idade) VALUES(7,"Alex Brito","alexbrito@gmail.com",19);
+INSERT INTO clientes(id, nome, email, idade) VALUES(8,"Pamela Barbosa","barbosapamela1@gmail.com",23);
+INSERT INTO clientes(id, nome, email, idade) VALUES(9,"Heloisa Crux","heloisadacrux1@gmail.com",18);
+INSERT INTO clientes(id, nome, email, idade) VALUES(10,"Leonardo","leo1@gmail.com",18);
+INSERT INTO clientes(id, nome, email, idade) VALUES(11,"Joanino","joanino@gmail.com",20);
+INSERT INTO clientes(id, nome, email, idade) VALUES(12,"Simone","simoneoficial@gmail.com",19);
+INSERT INTO clientes(id, nome, email, idade) VALUES(13,"Ronaldo Santos","ronaldo1@gmail.com",23);
+INSERT INTO clientes(id, nome, email, idade) VALUES(14,"Vitor","vitor1@gmail.com",23);
+INSERT INTO clientes(id, nome, email, idade) VALUES(15,"Sulayne","sulayne1@gmail.com",18);
+INSERT INTO clientes(id, nome, email, idade) VALUES(16,"Joana","joana@gmail.com",20);
+INSERT INTO clientes(id, nome, email, idade) VALUES(17,"Alex Brito","alexbrito@gmail.com",19);
+INSERT INTO clientes(id, nome, email, idade) VALUES(18,"Paulo","paulo1@gmail.com",23);
+INSERT INTO clientes(id, nome, email, idade) VALUES(19,"Celena","celena1@gmail.com",18);
+INSERT INTO clientes(id, nome, email, idade) VALUES(20,"Diego","diego1@gmail.com",18);
+
+4.1)SELECT * FROM clientes;
+4.2)SELECT nome FROM clientes;
+4.3)SELECT idade FROM clientes;
+4.4)SELECT nome FROM clientes WHERE id = "1";
+4.5)SELECT * FROM clientes LIMIT 4;
+
+5) UPDATE clientes SET nome = "Adevair Vitório" WHERE id = 1;
+
+6) UPDATE clientes SET nome = "ODEIO BANCO DE DADOS" WHERE id = 3;
+
+7) DELETE FROM clientes WHERE id = 3;
+
