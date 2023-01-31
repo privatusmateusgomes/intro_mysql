@@ -51,7 +51,7 @@ INSERT INTO veiculos(placa, ano, marca, id_cliente) VALUES ("MXR-6639","2015", "
 INSERT INTO funcionarios(nome, funcao, salario, matricula, status_funcionario) VALUES ("Sandro Almeida","gerente", 5000.50, 123456, 1);
 INSERT INTO funcionarios(nome, funcao, salario, matricula, status_funcionario) VALUES ("Julio Vasconcelos","vendedor", 2000.50, 123457, 0);
 
--- Crindo consultas em clientes:
+-- Criando consultas em clientes:
 
 -- 1. Todos os campos de todos os clientes:
 
@@ -130,6 +130,3 @@ UPDATE veiculos SET ano = 1997 WHERE id_cliente = 2;
 UPDATE funcionarios SET nome = "Jonas" WHERE id = 1;
 
 -- Obrigado!
-
-
-
